@@ -1,0 +1,27 @@
+.container {
+    border: 5px soli black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    height: 70vh;
+}
+
+.apagada img {
+    width: 136px;
+}
+
+.acesa img {
+    width: 136px;
+}
+
+.acesa img:hover {
+    opacity: .7;
+}
+
+.apagada img:hover {
+    opacity: .7;
+}
